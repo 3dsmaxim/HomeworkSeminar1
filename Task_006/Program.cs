@@ -5,13 +5,13 @@
 
 
 Console.WriteLine("Введите число: ");
-int MrA = Convert.ToInt32(Console.ReadLine());
-int MrB = MrA % 2;
-if (MrB == 0)
+int mrA = Convert.ToInt32(Console.ReadLine());
+int mrB = mrA % 2;
+if (mrB == 0)
 {
-    Console.WriteLine("Число: " + MrA + " четное.");
+    Console.WriteLine("Число: " + mrA + " четное.");
 }
 else
 {
-    Console.WriteLine("Число: " + MrA + " нечетное.");
+    Console.WriteLine("Число: " + mrA + " нечетное.");
 }
