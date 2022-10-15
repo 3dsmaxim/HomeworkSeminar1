@@ -19,3 +19,7 @@ if (numberA < numberB)
 {
     Console.WriteLine(numberA + " < " + numberB + " max = " + numberB + ",  min = " + numberA );
 }
+else
+{
+    Console.WriteLine(numberA + " = " + numberB + " max = " + numberA);
+}
